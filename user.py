@@ -76,3 +76,10 @@ def save_users(user):
     function to save user account
     '''
     user.save_user()
+
+
+def del_user(user):
+    '''
+    function to delete user account
+    '''
+    user.delete_user()
