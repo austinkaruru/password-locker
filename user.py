@@ -61,3 +61,11 @@ class User:
         self.application = application
         self.email = email
         self.password = password
+
+
+def create_user(application, email, password):
+    '''
+    function to create new user account
+    '''
+    new_user = User(application, email, password)
+    return new_user
