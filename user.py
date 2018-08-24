@@ -1,6 +1,9 @@
+import pyperclip
+
+
 class User:
     """
-    Class that generates new instances of contacts
+    Class that generates new instances of user
 
     """
 
@@ -34,6 +37,24 @@ class User:
         for user in cls.users:
             if user.application == application:
                 return user
+
+    @classmethod
+    def user_exist(cls, application):
+
+        for user in cls.users:
+            if user.application == application:
+                return True
+        return False
+
+    @classmethod
+    def copy_email(cls, application):
+        user_found = User.find_by_application(application)
+        pyperclip.copy(user_found.email)
+
+    @classmethod
+    def display_users(cls):
+
+        return cls.users
 
     def __init__(self, application, email, password):
 
