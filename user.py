@@ -90,3 +90,10 @@ def find_user(application):
     function to find user account using the application
     '''
     return User.find_by_application(application)
+
+
+def display_users():
+    '''
+    function that returns all saved users
+    '''
+    return User.display_users()
