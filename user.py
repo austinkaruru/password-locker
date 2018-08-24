@@ -83,3 +83,10 @@ def del_user(user):
     function to delete user account
     '''
     user.delete_user()
+
+
+def find_user(application):
+    '''
+    function to find user account using the application
+    '''
+    return User.find_by_application(application)
