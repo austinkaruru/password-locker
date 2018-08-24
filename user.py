@@ -92,6 +92,10 @@ def find_user(application):
     return User.find_by_application(application)
 
 
+def check_existing_users(application):
+    return User.user_exist(application)
+
+
 def display_users():
     '''
     function that returns all saved users
