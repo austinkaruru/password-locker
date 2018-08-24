@@ -69,3 +69,10 @@ def create_user(application, email, password):
     '''
     new_user = User(application, email, password)
     return new_user
+
+
+def save_users(user):
+    '''
+    function to save user account
+    '''
+    user.save_user()
