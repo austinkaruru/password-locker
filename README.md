@@ -16,4 +16,6 @@
 
 #### A copy of the app on your machine
 
+### To get the app running, open your Command line and navigate to the folder containing the app.
+
 ####
