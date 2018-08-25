@@ -19,11 +19,11 @@
 ### To get the app running, open your Command line and navigate to the folder containing the app.
 
 ### Then first run the command 
-`chmod +x run.py`.
+`chmod +x run.py`
 
 ### Then run 
 `./run.py` 
-### so as to activate the app
+### So as to activate the app
 
 ## N.B: The app is yet to be complete. If you have any useful advise, email me @karuruaustine@gmail.com
 
