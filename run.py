@@ -45,6 +45,7 @@ def display_users():
 
 def main():
     print("Hello There, Welcome to password-locker.Please login to continue.")
+
     user_email = input()
     random_number = random.randint(99999, 999999)
 
@@ -116,9 +117,26 @@ def main():
                     f"Application .... {search_application.application}")
                 print(
                     f"Email address ... {search_application.email}")
+                print({random_number})
 
             else:
                 print("Not found")
+
+        # elif short_code == 'de'
+        #     print("Enter the user you want to delete")
+
+        #      search_application = input()
+        #     if check_existing_users(search_application):
+        #         search_application = find_user(
+        #             search_application)
+        #         print(
+        #             f"{search_application.application} {search_application.email}")
+        #         print('-'*20)
+
+        #         print(
+        #             f"Application .... {search_application.application}")
+        #         print(
+        #             f"Email address ... {search_application.email}")
 
         elif short_code == "ex":
             print("Bye....")
