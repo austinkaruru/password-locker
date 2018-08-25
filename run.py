@@ -1,5 +1,6 @@
 #!/usr/bin/env python3.6
 from user import User
+import random
 
 
 def create_user(application, email, password):
@@ -45,9 +46,9 @@ def display_users():
 def main():
     print("Hello There, Welcome to password-locker.Please login to continue.")
     user_email = input()
-    # user_password = input()
+    random_number = random.randint(99999, 999999)
 
-    print(f"Hello @{user_email}")
+    print(f"Hello @{user_email}, your new password is {random_number}")
 
     print('\n')
 
@@ -70,15 +71,16 @@ def main():
             print("Email")
             email = input()
 
-            print("Password")
-            password = input()
+            random_number = random.randint(99999, 999999)
+            print("random_number")
+            # password = input()
 
             save_users(create_user(
-                application, email, password))
+                application, email, random_number))
 
             print('\n')
             print(
-                f"New user {application} {email} {password} created")
+                f"New user Application:{application} Email:{email} password:{random_number} created")
 
             print('\n')
 
