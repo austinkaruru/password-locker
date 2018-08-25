@@ -12,6 +12,8 @@
 
 #### To run the app, you need:
 
-#### Python3.6.5
+#### Python3.6.5 installed
+
+#### A copy of the app on your machine
 
 ####
