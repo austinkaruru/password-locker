@@ -10,11 +10,11 @@
 
 # Getting Started
 
-#### To run the app, you need:
+## To run the app, you need:
 
-#### Python3.6.5 installed
+Python3.6.5 installed
 
-#### A copy of the app on your machine
+A copy of the app on your machine
 
 ### To get the app running, open your Command line and navigate to the folder containing the app.
 
