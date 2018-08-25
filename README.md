@@ -1,7 +1,11 @@
 # Password Locker
+
 ## Author : Austin Karuru
-# Description 
+
+# Description
+
 ####
+
 # Getting Started
+
 ####
-### Check it out here :
