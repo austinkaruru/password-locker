@@ -23,3 +23,5 @@
 ### Then run `./run.py` so as to activate the app
 
 ## N.B: The app is yet to be complete. If you have any useful advise, email me @karuruaustine@gmail.com
+
+### This project is licensed under the MIT Copyright <a href="https://github.com/austinkaruru/password-locker/blob/master/LICENSE">License</a> (c) 2018 <a href="https://github.com/austinkaruru">austinkaruru</a>
