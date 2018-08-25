@@ -10,4 +10,6 @@
 
 # Getting Started
 
+#### To run the app
+
 ####
