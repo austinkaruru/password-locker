@@ -10,17 +10,20 @@
 
 # Getting Started
 
-#### To run the app, you need:
+## To run the app, you need:
 
-#### Python3.6.5 installed
+Python3.6.5 installed
 
-#### A copy of the app on your machine
+A copy of the app on your machine
 
 ### To get the app running, open your Command line and navigate to the folder containing the app.
 
-### Then first run the command `chmod +x run.py`.
+### Then first run the command 
+`chmod +x run.py`
 
-### Then run `./run.py` so as to activate the app
+### Then run 
+`./run.py` 
+### So as to activate the app
 
 ## N.B: The app is yet to be complete. If you have any useful advise, email me @karuruaustine@gmail.com
 
