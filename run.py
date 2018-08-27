@@ -73,7 +73,7 @@ def main():
             email = input()
 
             random_number = random.randint(99999, 999999)
-            print("random_number")
+            # print("random_number")
             # password = input()
 
             save_users(create_user(
