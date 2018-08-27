@@ -58,7 +58,7 @@ def main():
         #    user_password == password
 
         print(
-            "What do you want to do : sc - save new account with credentials, da - Display accounts, fa - find account, ex - exit the app")
+            "What do you want to do : sc - save new account with credentials, da - Display accounts, fa - find account, de - delete account, ex - exit the app")
 
         short_code = input().lower()
 
@@ -122,10 +122,10 @@ def main():
             else:
                 print("Not found")
 
-        # elif short_code == 'de'
+        # elif short_code == 'de':
         #     print("Enter the user you want to delete")
 
-        #      search_application = input()
+        #     search_application = input()
         #     if check_existing_users(search_application):
         #         search_application = find_user(
         #             search_application)
@@ -137,6 +137,8 @@ def main():
         #             f"Application .... {search_application.application}")
         #         print(
         #             f"Email address ... {search_application.email}")
+
+        #         delete_user()
 
         elif short_code == "ex":
             print("Bye....")
